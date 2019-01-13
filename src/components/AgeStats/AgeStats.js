@@ -20,6 +20,9 @@ class AgeStats extends Component {
       <div>
         <h3>{this.props.date}</h3>
         <h4>congrats on {this.timeSince(this.props.date)}</h4>
+        <img 
+          src="https://media.giphy.com/media/l8XYZYdlOHSrS/giphy.gif" 
+          alt="I Love Lucy with champagne" />
       </div>
     )
   }
